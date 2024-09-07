@@ -1,0 +1,641 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+body{
+  padding-top: 20vh;
+}
+
+Header nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 15px;
+}
+
+Header nav ul li{
+ 
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  transition: transform(0.5s);
+  
+  
+}
+Header nav ul li:first-child{
+  margin-right: auto;
+  padding: 0px 20px;
+  font-size: 2vw;
+}
+header{
+  position: fixed;
+  height: 18vh;
+  background-color:white;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: grid;
+  align-content: center;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Header nav ul li:last-child{
+  display: none;
+} */
+
+
+
+
+nav li:hover{
+  background-color: gray;
+  cursor: pointer;
+
+}
+
+nav .sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  background-color: gold;
+  width: 55%;
+  height: 90vh;
+  align-items: center;
+
+}
+
+nav .sidebar div{
+  display: grid;
+  margin: 5px 20px;
+  width: 100%;
+  padding: 15px 15px;
+  justify-content: center;
+}
+
+
+
+
+nav .sidebar div:hover{
+  background-color: gray;
+  cursor: pointer;
+
+}
+
+
+.one{
+  min-height: 100vh;
+  background-image: url('river.jpg'); 
+  background-position: center;
+  background-size: cover;
+  color: white; 
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wordpress .bt h3 {
+  display: grid;
+  font-size: 4vw;
+  width: 70%;
+  margin: auto;
+}
+.wordpress .bt p {
+  display: grid;
+  font-size: 1.2vw;
+  margin: 25px 0;
+}
+.wordpress button{
+  padding: 20px 39px;
+  color: white;
+}
+.wordpress button:first-child{
+  background-color: #745cf9;
+  border: none;
+}
+
+.wordpress button:last-child{
+  background-color: transparent;
+  border: solid 1px white;
+}
+
+.wordpress button:first-child:hover{
+  opacity: 0.8;
+}
+.wordpress button:last-child:hover{
+  background-color: white;
+  color: black;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.book img{
+  max-width: 100%;
+  height: 75%;
+}
+.book{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.books{
+  display: grid;
+  align-content: center;
+  text-align: justify;
+  width: 70%;
+}
+
+.books p{
+  margin: 10% 0px;
+}
+.books button{
+  width: 50%;
+  padding: 5% 2px;
+  background-color:#745cf9 ;
+  border: none;
+}
+.containers{
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 2fr, 1fr)); */
+  grid-template-columns: 1fr 2fr;
+ 
+  background-color: beige;
+}
+.containers .same{ margin-left: 14%;}
+
+.three{
+  background-image: url('riverphoto-1452723312111-3a7d0db0e024.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.bike{
+  min-height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+}
+.bike h3, .bikes h3, .bio h3{
+  font-size: 4vw;
+}
+.bike p, .bikes p, .bio p{
+  margin: auto;
+  width: 60%;
+  display: grid;
+  justify-content: center;
+  padding: 2%;
+}
+.bike button, .bikes button{
+  width: 14%;
+  margin: auto;
+  padding: 1rem 3.5rem;
+  background-color: #745cf9;
+  color: white;
+  border: none;
+  
+}
+.bikes, .four{
+  background-color: #8c979e;
+  min-height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+  
+}
+.bikes button{
+  width: 16%;
+  margin: auto;
+  padding: 1rem 3.5rem;
+  background-color: #745cf9;
+  color: white;
+  border: none;
+  
+}
+.fourinner{
+  height: 90vh;
+  background-image: url('forestphoto-1440557653082-e8e186733eeb-1.jpg');
+  margin: 0px 5%;
+  background-position: center;
+  background-size: cover;
+}
+.black{
+  background-color: black;
+  color: white;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  height: 40vh;
+}
+.black p{
+  margin-top: 5%;
+}
+
+
+.messi img{ 
+  max-width: 100%;
+  max-height: 100%;
+  
+ } 
+
+
+
+.messi{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-y: hidden;
+}
+
+.flip{
+  height: 80vh;
+  background-image: url('riverphoto-1452723312111-3a7d0db0e024.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bio{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+}
+.bio h3{
+  margin-top: 3%;
+}
+
+.c_card{
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  background-color: transparent;
+  margin: auto;
+}
+
+
+.flips{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.c_card:hover .flips{
+  transform: rotateY(180deg);
+}
+
+.front, .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front{
+  transform: rotateY(180deg);
+}
+
+.front img, .back img{
+  max-width: 100%;
+  border-radius: 50%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.c_card p{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3%;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.toma{
+  height: 60vh;
+  /* background-color: purple; */
+  display: grid;
+  justify-content: center;
+  color: black;
+  font-size: 1.8rem;
+}
+.up{
+  margin: auto;
+}
+.down{
+  /* display: flex; */
+  /* justify-content: space-around; */
+width: 100vw;
+}
+.down img{
+  margin: 1%;
+  animation-name: okay;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+
+}
+
+@keyframes okay {
+  from{
+    transform: translate(100vw);
+  }
+  to{
+    transform: translate(-2vw);
+  }
+  
+}
+
+.tout{
+  background-color: bisque;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-content: center;
+  justify-content: center;
+}
+
+.tout .gin{
+  display: grid;
+  justify-content: center;
+  font-size: 1.6rem;
+  align-items: center;
+}
+.tout button{
+  width: 50%;
+  padding: 20px 40px;
+  background-color:#745cf9 ;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+footer{
+  height: 30vh;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  padding-left: 30px;
+}
+footer div{
+  display: grid;
+  justify-content: center;
+  font-size: 1.6rem;
+  align-items: center;
+}
+
+.kol{
+  display: flex;
+  gap: 2%;
+}
+
+@media (max-width:920px) {
+  section .twos{
+    height: 80vh;
+  }
+
+  .flip{
+    height: 85vh;
+  align-content: center;
+  }
+  .tout button{
+    width: 70%;}
+    .bikes button{
+      width: 26%;
+  
+}
+.bike button{width: 22%;}
+
+}
+
+
+@media (min-width:768px) {
+
+  Header nav ul li:last-child{
+    display: none;}
+
+    Header nav ul li:first-child{
+      margin-right: 10%;
+  
+    }
+
+    Header nav ul{
+      gap: 5px;
+    }
+  
+    
+
+  section .twos{
+    height: 70vh;
+  }
+
+  .bikes button{
+    width: 30%;
+}
+
+.bike button{width: 28%;}
+.tout button{
+  width: 80%;}
+
+  .tout .gin{
+    display: grid;
+    justify-content: center;
+    font-size: 1.3rem;
+    align-items: center;
+  }
+
+  footer div{
+    font-size: 1.3rem;
+
+}
+}
+
+@media (max-width:767px){
+  nav ul .ten{
+    display: none;
+  }
+}
+
+@media (max-width:480px){
+  nav ul .ten{
+    display: none;
+  }
+
+  Header nav ul li:first-child{
+    font-size: 3.5vw;
+  }
+
+  .wordpress .bt h3{
+    font-size: 6vw;
+  }
+
+  .wordpress .bt p{
+    font-size: 2.5vw;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .books{
+    display: grid;
+    width: 70%;
+    padding: 0px, 50%;
+    margin-left: 20%;
+    
+  }
+  
+  
+  .containers{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 2fr, 1fr)); */
+    grid-template-columns: 1fr;
+   
+    background-color: beige;
+  }
+  .containers .same{ margin-left: 20%;}
+  .containers h3{padding-top: 15%;}
+  
+  .bike button, .bikes button{
+    width: 50%;
+    margin: auto;
+    padding: 1rem 2rem;
+    
+  }
+  
+  .bikes button{
+    width: 50%;
+    margin: auto;
+    padding: 1rem 3.5rem;
+    background-color: #745cf9;
+    color: white;
+    border: none;
+    
+  }
+  
+  section .twos{
+    height: 39vh;
+  }
+
+  .c_card{
+    width: 250px;
+    height: 150px;
+    
+  }
+  .c_card p{
+    font-size: 3vw;
+  }
+
+  
+
+  .tout{
+    background-color: bisque;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .tout .gin{
+    
+    font-size: 1rem;
+    padding-left: 1rem;
+    
+  }
+  .tout button{
+    width: 90%;
+  }
+  
+  footer{
+    height: 20vh;
+  }
+
+  footer div{
+    display: grid;
+    justify-content: center;
+    font-size: 1rem;
+    align-items: center;
+  }
+  
+  .kol{
+    display: flex;
+    gap: 2%;
+  }
+
+}
+
+@media (max-width:375px){
+  .wordpress .bt p{
+    font-size: 5.2vw;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    margin-left: 20px;
+
+  }
+
+  .wordpress button{
+    margin: 8px 0px;
+    padding: 20px 39px;
+    color: white;
+  }
+  .wordpress .bt h3 {
+    color: #745cf9;
+  }
+
+  section .twos{
+    height: 29vh;
+  }
+
+  .flip{
+    height: 100vh;}
+    .c_card p{
+      font-size: 4vw;
+    }
+
+    .btn{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin: auto;
+    }
+}
+/* @media (min-width:800px){
+  Header nav ul li:last-child{
+    display: inline-block;
+  }} */
+
+  @media (min-width:1024px){
+    
+    Header nav ul li:nth-child(2){
+      margin-left: 10%;
+  
+    }
+  }
+
+  @media (min-width:1440px){
+    
+    Header nav ul li:nth-child(2){
+      margin-left: 25%;
+  
+    }
+  }
